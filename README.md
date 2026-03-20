@@ -15,6 +15,7 @@ A professional, immersive weather forecasting application built with a modern fu
 ## 🏗️ Tech Stack
 
 ### Frontend
+
 - React.js: Component-based UI development.
 - Tailwind CSS v4: Advanced styling and immersive layout design.
 - Lucide React: Premium vector icons.
@@ -22,12 +23,14 @@ A professional, immersive weather forecasting application built with a modern fu
 - Axios: Promise-based HTTP client for API requests.
 
 ### Backend
+
 - Node.js & Express.js: Scalable server-side infrastructure.
 - Morgan: HTTP request logger for development.
 - Cors: Cross-Origin Resource Sharing management.
 - Dotenv: Secure environment variable management.
 
 ### API
+
 - OpenWeatherMap: Source for global meteorological data.
 
 ## 🔗 Architecture Flow
@@ -62,12 +65,14 @@ weather_forecast_application/
 ## ⚙️ Environment Variables
 
 ### Backend (.env)
+
 ```env
 PORT=5000
 API_KEY=your_openweathermap_api_key
 ```
 
 ### Frontend (.env)
+
 ```env
 VITE_API_BASE_URL=http://localhost:5000/api
 ```
@@ -75,12 +80,14 @@ VITE_API_BASE_URL=http://localhost:5000/api
 ## ▶️ Installation & Setup
 
 ### 1. Clone the repository
+
 ```bash
 git clone <repository-url>
 cd weather_forecast_application
 ```
 
 ### 2. Backend Setup
+
 ```bash
 cd backend
 npm install
@@ -89,6 +96,7 @@ npm run dev
 ```
 
 ### 3. Frontend Setup
+
 ```bash
 cd frontend
 npm install
@@ -104,8 +112,8 @@ npm run dev
 4. Use the search bar to enter any city name worldwide.
 5. Clear the search bar to instantly return to the default hero state.
 
-## 📸 Screenshots 
- 
+## 📸 Screenshots
+
  <p align="center"> 
    <img src="./screenshots/weather_dashboard.png" width="85%" /> 
- </p> 
+ </p>
